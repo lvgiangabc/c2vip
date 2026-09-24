@@ -1,0 +1,11 @@
+{
+    "name": "worker",
+    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "postStartCommand": "bash .devcontainer/start.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    }
+}
